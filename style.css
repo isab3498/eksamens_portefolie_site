@@ -1,0 +1,596 @@
+/**************   INDHOLD  ***************/
+
+
+
+/************  1. GENERALLE REGLER ********/
+
+/*******  - HEADER OG NAV  *******/
+/*******  - FOOTER  *******/
+
+/************  2. FORSIDE  ***************/
+/************  3.   OM     ***************/
+/************  4. PORTEFOLIE  ************/
+/************  5. PORTEFOLIEside  ********/
+/************  6. KONTAKT  ***************/
+/************  7. MEDIA ONLY  ************/
+
+
+/************  1. GENERALLE REGLER ********/
+html {
+    background-color: #F6F8F9;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Dancing Script', cursive;
+    color: #434040;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 0.8rem;
+    color: #898080;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Noto Serif', serif;
+}
+
+p {
+    color: #898080;
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*******  HEADER  *******/
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 110px;
+    background-color: rgb(255, 225, 211);
+    /*border-bottom: 4px solid rgba(255, 132, 77, 0.24);*/
+}
+
+.logo {
+    background-image: url(ikoner/logo_2.svg);
+    background-size: cover;
+    margin: 30px 20px;
+    width: 250px;
+    height: 70px;
+}
+
+
+/** NAV **/
+.hidden {
+    display: none;
+}
+
+#menuknap {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #898080;
+    cursor: pointer;
+}
+
+/*#menuknap {
+    background-image: url(ikoner/menu_ikon.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+    margin: 40px 20px ;
+}*/
+
+#menu {
+    position: absolute;
+    padding: 0px 0px;
+    list-style-type: none;
+    right: 0;
+    margin: 0;
+    background-image: url(ikoner/menu_baggrund.svg);
+    background-size: cover;
+    height: 667px;
+    width: 300px;
+    box-shadow: -30px 0px 80px 3px #0b0303;
+}
+
+.menu_bund {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+nav .ikon_container {
+    width: 20vw;
+}
+
+header li {
+    width: 100%;
+    margin: 20px;
+}
+
+header li:first-child {
+    margin-top: 80px;
+}
+
+header li a {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.4;
+    color: #c6c9c9;
+}
+
+header li a:hover {
+    color: rgba(255, 132, 77, 0.24);
+}
+
+.ikon_forside {
+    background-image: url(ikoner/hjem_ikon.svg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 13px 20px;
+}
+
+.ikon_portefolie {
+    background-image: url(ikoner/portefolie_ikon.svg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 13px 20px;
+}
+
+.ikon_om {
+    background-image: url(ikoner/om_ikon.svg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 13px 20px;
+}
+
+.ikon_kontakt {
+    background-image: url(ikoner/kontakt_ikon.svg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 13px 20px;
+}
+
+
+/*******  FOOTER  *******/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(255, 225, 211);
+    width: 100%;
+    height: 70px;
+    margin: 0;
+}
+
+footer p {
+    margin: 25px 10px 0;
+    color: #afa8a8;
+}
+
+.ikon_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+    margin: 20px 30px;
+}
+
+.ikon1 {
+    background-image: url(ikoner/insta_ikon.svg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.ikon2 {
+    background-image: url(ikoner/facebook_ikon.svg);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+
+/************  2. FORSIDE  ***************/
+
+.splash {
+    background-image: url(billeder/IMG_2344.JPG);
+    background-size: cover;
+    height: 128vw;
+}
+
+
+/************  3.   OM     ***************/
+
+#om {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.billede_container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.billede {
+    background-image: url(billeder/IMG_2344.JPG);
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 100%;
+    margin: 50px 20px 20px 20px;
+}
+
+.txt {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 30px;
+}
+
+/************  4. PORTEFOLIESIDE  ************/
+
+.portefolie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portefolie_produkt {
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 10px;
+}
+
+.top1,
+.top2,
+.top3,
+.top4,
+.top5,
+.top6 {
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.top1 {
+    background-image: url(billeder/responsive_site.jpg);
+}
+
+.top2 {
+    background-image: url(billeder/save%20the%20ocean.jpg);
+}
+
+.top3 {
+    background-image: url(billeder/sex%20og%20samfund.jpg);
+}
+
+.top4 {
+    background-image: url(billeder/kgb%20redesign.jpg);
+}
+
+.top5 {
+    background-image: url(billeder/fronter_prototype.jpg);
+}
+
+.top6 {
+    background-image: url(billeder/moonbar_App-jpg.png);
+}
+
+.bund {
+    padding: 10px;
+
+}
+
+.dato_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dato p {
+    font-size: 0.9rem;
+}
+
+.ur_ikon {
+    background-image: url(ikoner/kalender_ikon.svg);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+/************  5. PORTEFOLIE  ************/
+
+.pil_container {
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    background-color: rgb(255, 225, 211);
+    border-bottom-right-radius: 10px;
+    padding: 10px 0 0 15px;
+    box-shadow: 3px 3px 5px #100f0f;
+}
+
+.pil {
+    background-image: url(ikoner/pil_ikon.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+
+.portefolie_billede1,
+.portefolie_billede2,
+.portefolie_billede3,
+.portefolie_billede4,
+.portefolie_billede5,
+.portefolie_billede6 {
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+}
+
+.portefolie_billede1 {
+    background-image: url(billeder/responsive_site.jpg);
+}
+
+.portefolie_billede2 {
+    background-image: url(billeder/save%20the%20ocean.jpg);
+}
+
+.portefolie_billede3 {
+    background-image: url(billeder/sex%20og%20samfund.jpg);
+}
+
+.portefolie_billede4 {
+    background-image: url(billeder/kgb%20redesign.jpg);
+}
+
+.portefolie_billede5 {
+    background-image: url(billeder/fronter_prototype.jpg);
+}
+
+.portefolie_billede6 {
+    background-image: url(billeder/moonbar_App-jpg.png);
+}
+
+.knap_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+
+.knap1,
+.knap2 {
+    background-color: rgb(255, 225, 211);
+    padding: 0px 6px;
+    border-radius: 20px;
+    width: 38vw;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+/************  6. KONTAKT  ************/
+#kontakt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#kontakt .txt {
+    padding: 0 100px;
+}
+
+.kontakt_txt {
+    display: flex;
+}
+
+.mail_ikon {
+    background-image: url(ikoner/kontakt_ikon.svg);
+    background-size: cover;
+    width: 35px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.tlf_ikon {
+    background-image: url(ikoner/telf_ikon.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.billede {
+    background-image: url(billeder/IMG_2344.JPG);
+    background-size: cover;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 100%;
+    margin: 50px 20px 20px 20px;
+}
+
+/************  7. MEDIA ONLY  ************/
+
+@media only screen and (min-width: 500px) {
+    .portefolie_produkt {
+        width: 400px;
+        margin: 20px 10px;
+    }
+
+    .top1,
+    .top2,
+    .top3,
+    .top4,
+    .top5,
+    .top6 {
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    header {
+        position: sticky;
+        background-color: rgb(255, 225, 211);
+    }
+
+    header li a {
+        color: #898080;
+        font-size: 1rem;
+    }
+
+    header li a:hover {
+        color: white;
+    }
+
+    header li {
+        display: inline-block;
+        width: auto;
+    }
+
+    header li:first-child {
+        margin-top: 70px;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        display: inherit;
+    }
+
+    #menu {
+        text-align: right;
+        background-image: url();
+        height: 110px;
+        width: 70%;
+        box-shadow: none;
+    }
+
+    .menu_bund,
+    .ikon_forside,
+    .ikon_om,
+    .ikon_portefolie,
+    .ikon_kontakt {
+        display: none;
+    }
+
+    .splash {
+        height: 20vw;
+    }
+
+    #om {
+        justify-content: flex-start;
+        height: 100%;
+    }
+
+    .billede {
+        max-height: 350px;
+        max-width: 350px;
+    }
+
+    .billede_container {
+        padding: 40px;
+    }
+
+    .txt {
+        margin: 40px 80px 0 10px;
+    }
+
+    #portefolie {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portefolie_wrapper {
+        max-width: 800px;
+    }
+
+    .knap1,
+    .knap2 {
+        height: 40px;
+        width: 250px;
+    }
+
+    .knap_container p {
+        padding: 7px;
+    }
+
+    #kontakt .txt {
+        margin: 50px 50px 50px 80px;
+    }
+
+    #kontakt {
+        justify-content: flex-start;
+        height: 100%;
+    }
+
+    .portefolie_billede1,
+    .portefolie_billede2,
+    .portefolie_billede3,
+    .portefolie_billede4,
+    .portefolie_billede5,
+    .portefolie_billede6 {
+        height: 50vw;
+    }
+
+}
+
+@media only screen and (min-width: 1150px) {
+
+    .portefolie_billede1,
+    .portefolie_billede2,
+    .portefolie_billede3,
+    .portefolie_billede4,
+    .portefolie_billede5,
+    .portefolie_billede6 {
+        height: 30vw;
+    }
+
+    header li a {
+        font-size: 1.2rem;
+    }
+}
