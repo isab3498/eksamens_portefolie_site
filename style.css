@@ -88,7 +88,7 @@ header {
     top: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    color: #898080;
+    color: #c6c9c9;
     cursor: pointer;
 }
 
@@ -124,6 +124,7 @@ header {
 
 nav .ikon_container {
     width: 20vw;
+    margin-right: 30px;
 }
 
 header li {
@@ -225,11 +226,11 @@ footer p {
 /************  2. FORSIDE  ***************/
 
 .splash {
-    background-image: url(billeder/splash_billede3.png);
+    background-image: url(billeder/splash_billede4.png);
     background-size: cover;
     width: 100vw;
     height: 130vw;
-    background-position: 30% 20%;
+    background-position: 23% 20%;
 }
 
 
