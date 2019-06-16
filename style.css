@@ -203,8 +203,8 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 70px;
-    margin: 20px 30px;
+    width: 80px;
+    margin: 20px 10px 20px 0px;
 }
 
 .ikon1 {
@@ -225,9 +225,11 @@ footer p {
 /************  2. FORSIDE  ***************/
 
 .splash {
-    background-image: url(billeder/IMG_2344.JPG);
+    background-image: url(billeder/splash_billede3.png);
     background-size: cover;
-    height: 128vw;
+    width: 100vw;
+    height: 130vw;
+    background-position: 30% 20%;
 }
 
 
@@ -246,8 +248,8 @@ footer p {
     flex-basis: 300px;
 }
 
-.billede {
-    background-image: url(billeder/IMG_2344.JPG);
+.billede_om {
+    background-image: url(billeder/billede_af_mig.jpg);
     background-size: cover;
     height: 50vw;
     width: 50vw;
@@ -439,8 +441,8 @@ footer p {
     margin: 10px 20px;
 }
 
-.billede {
-    background-image: url(billeder/IMG_2344.JPG);
+.billede_kontakt {
+    background-image: url(billeder/kontakt_billede.png);
     background-size: cover;
     height: 50vw;
     width: 50vw;
@@ -472,7 +474,9 @@ footer p {
 @media only screen and (min-width: 750px) {
     header {
         position: sticky;
-        background-color: rgb(255, 225, 211);
+        /*        background-color: rgb(255, 225, 211);*/
+        background-color: #ffe1d3;
+
     }
 
     header li a {
@@ -517,8 +521,12 @@ footer p {
         display: none;
     }
 
+    .ikon_container {
+        margin-right: 50px;
+    }
+
     .splash {
-        height: 20vw;
+        height: 45vw;
     }
 
     #om {
@@ -526,7 +534,12 @@ footer p {
         height: 100%;
     }
 
-    .billede {
+    .billede_om {
+        max-height: 350px;
+        max-width: 350px;
+    }
+
+    .billede_kontakt {
         max-height: 350px;
         max-width: 350px;
     }
