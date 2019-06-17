@@ -31,31 +31,51 @@ img {
 h1 {
     text-align: center;
     font-size: 2.3rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'dancing_script_otregular';
     color: #434040;
 }
 
 h2 {
     margin-bottom: 5px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'ralewaylight';
 }
 
 h3 {
     font-size: 0.8rem;
     color: #898080;
     margin: 0px 0px 20px 0px;
-    font-family: 'Noto Serif', serif;
 }
 
 p {
     color: #898080;
-    font-family: 'Noto Serif', serif;
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
+
+
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('fonts/dancingscript-regular-webfont.woff2') format('woff2'),
+        url('fonts/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light-webfont.woff2') format('woff2'),
+        url('fonts/raleway-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /*******  HEADER  *******/
 header {
