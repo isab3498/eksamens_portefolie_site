@@ -84,7 +84,6 @@ header {
     width: 100vw;
     height: 110px;
     background-color: rgb(255, 225, 211);
-    /*border-bottom: 4px solid rgba(255, 132, 77, 0.24);*/
 }
 
 .logo {
@@ -109,7 +108,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: white;
-    /*    color: white;*/
     cursor: pointer;
 }
 
@@ -117,13 +115,6 @@ header {
     color: white;
 }
 
-/*#menuknap {
-    background-image: url(ikoner/menu_ikon.svg);
-    background-size: cover;
-    width: 10vw;
-    height: 10vw;
-    margin: 40px 20px ;
-}*/
 
 #menu {
     position: absolute;
@@ -283,7 +274,7 @@ footer p {
     margin: 50px 20px 20px 20px;
 }
 
-.txt {
+#om .txt {
     flex-grow: 1;
     flex-basis: 300px;
     margin: 30px;
@@ -375,7 +366,11 @@ footer p {
     background-color: rgb(255, 225, 211);
     border-bottom-right-radius: 10px;
     padding: 10px 0 0 15px;
-    box-shadow: 3px 3px 5px #100f0f;
+    box-shadow: 3px 4px 5px #100f0f;
+}
+
+#portefolie .txt {
+    margin: 40px 20px 50px;
 }
 
 .pil {
@@ -588,8 +583,8 @@ footer p {
         padding: 40px;
     }
 
-    .txt {
-        margin: 40px 80px 0 10px;
+    #om .txt {
+        margin: 40px 80px 40px 10px;
     }
 
     #portefolie {
@@ -602,14 +597,13 @@ footer p {
         max-width: 800px;
     }
 
-    .knap1,
-    .knap2 {
+    .knap {
         height: 40px;
         width: 250px;
     }
 
-    .knap_container p {
-        padding: 7px;
+    .knap p {
+        padding: 10px;
     }
 
     #kontakt .txt {
@@ -627,21 +621,13 @@ footer p {
     .portefolie_billede4,
     .portefolie_billede5,
     .portefolie_billede6 {
-        height: 50vw;
+        height: 450px;
     }
 
 }
 
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1100px) {
 
-    .portefolie_billede1,
-    .portefolie_billede2,
-    .portefolie_billede3,
-    .portefolie_billede4,
-    .portefolie_billede5,
-    .portefolie_billede6 {
-        height: 30vw;
-    }
 
     header li a {
         font-size: 1.2rem;
