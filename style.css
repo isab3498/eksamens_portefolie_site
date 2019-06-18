@@ -266,7 +266,7 @@ footer p {
 }
 
 .billede_om {
-    background-image: url(billeder/billede_af_mig.jpg);
+    background-image: url(billeder/billede_af_mig.png);
     background-size: cover;
     height: 50vw;
     width: 50vw;
@@ -312,27 +312,27 @@ footer p {
 }
 
 .top1 {
-    background-image: url(billeder/responsive_site.jpg);
+    background-image: url(billeder/responsive_site.png);
 }
 
 .top2 {
-    background-image: url(billeder/save%20the%20ocean.jpg);
+    background-image: url(billeder/save-the-ocean.png);
 }
 
 .top3 {
-    background-image: url(billeder/sex%20og%20samfund.jpg);
+    background-image: url(billeder/sex-og-samfund.png);
 }
 
 .top4 {
-    background-image: url(billeder/kgb%20redesign.jpg);
+    background-image: url(billeder/kgb-redesign.png);
 }
 
 .top5 {
-    background-image: url(billeder/fronter_prototype.jpg);
+    background-image: url(billeder/fronter_prototype.png);
 }
 
 .top6 {
-    background-image: url(billeder/moonbar_App-jpg.png);
+    background-image: url(billeder/moonbar_App.png);
 }
 
 .bund {
@@ -397,27 +397,27 @@ footer p {
 }
 
 .portefolie_billede1 {
-    background-image: url(billeder/responsive_site.jpg);
+    background-image: url(billeder/responsive_site.png);
 }
 
 .portefolie_billede2 {
-    background-image: url(billeder/save%20the%20ocean.jpg);
+    background-image: url(billeder/save-the-ocean.png);
 }
 
 .portefolie_billede3 {
-    background-image: url(billeder/sex%20og%20samfund.jpg);
+    background-image: url(billeder/sex-og-samfund.png);
 }
 
 .portefolie_billede4 {
-    background-image: url(billeder/kgb%20redesign.jpg);
+    background-image: url(billeder/kgb-redesign.png);
 }
 
 .portefolie_billede5 {
-    background-image: url(billeder/fronter_prototype.jpg);
+    background-image: url(billeder/fronter_prototype.png);
 }
 
 .portefolie_billede6 {
-    background-image: url(billeder/moonbar_App-jpg.png);
+    background-image: url(billeder/moonbar_App.png);
 }
 
 .knap_container {
