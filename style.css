@@ -108,8 +108,13 @@ header {
     top: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    color: #c6c9c9;
+    color: white;
+    /*    color: white;*/
     cursor: pointer;
+}
+
+#menuknap.hidden {
+    color: white;
 }
 
 /*#menuknap {
@@ -143,7 +148,7 @@ header {
 }
 
 nav .ikon_container {
-    width: 20vw;
+    width: 80px;
     margin-right: 30px;
 }
 
@@ -296,7 +301,11 @@ footer p {
     width: 300px;
     border-radius: 10px;
     background-color: white;
-    margin: 20px 10px;
+    margin: 30px 20px;
+}
+
+.portefolie_produkt:hover {
+    transform: scale(1.05);
 }
 
 .top1,
@@ -376,6 +385,10 @@ footer p {
     height: 30px;
 }
 
+.pil:hover {
+    transform: scale(1.2);
+}
+
 
 .portefolie_billede1,
 .portefolie_billede2,
@@ -418,10 +431,7 @@ footer p {
     justify-content: flex-end;
 }
 
-
-
-.knap1,
-.knap2 {
+.knap {
     background-color: rgb(255, 225, 211);
     padding: 0px 6px;
     border-radius: 20px;
@@ -430,6 +440,15 @@ footer p {
     margin: 5px;
     text-align: center;
 }
+
+.knap p {
+    padding: 5px;
+}
+
+.knap:hover {
+    transform: scale(1.05);
+}
+
 
 /************  6. KONTAKT  ************/
 #kontakt {
